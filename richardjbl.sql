@@ -28,11 +28,11 @@ CREATE TABLE Musicas (
 
 
 INSERT INTO Usuarios (nome, email, senha) VALUES
-('Pedro Silva', 'pedrosilva@example.com', 'senha351'),
-('Maria lima', 'maria.lima@example.com', 'senha625'),
-('Theo Oliveira', 'theo.oliveira@example.com', 'senha402'),
-('Julia Maria', 'Juliamaria@example.com', 'senha031'),
-('Joao Mendes', 'joaomendes@example.com', 'senha552');
+('Joao Pinto', 'joaopinto@example.com', 'senha962'),
+('Whisleno Silva', 'whislenosilva@example.com', 'senha039'),
+('Arthur Zimma', 'arthurzimma@example.com', 'senha402'),
+('Caua Richard', 'cauarichard@example.com', 'senha031'),
+('Leanderson Jose', 'leandersonjose@example.com', 'senha192');
 
 INSERT INTO Artistas (nome, genero) VALUES
 ('Artista A', 'Funk'),
