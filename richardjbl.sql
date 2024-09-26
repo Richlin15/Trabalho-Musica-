@@ -28,25 +28,25 @@ CREATE TABLE Musicas (
 
 
 INSERT INTO Usuarios (nome, email, senha) VALUES
-('João Silva', 'joao.silva@example.com', 'senha123'),
-('Maria Souza', 'maria.souza@example.com', 'senha456'),
-('Carlos Oliveira', 'carlos.oliveira@example.com', 'senha789'),
-('Ana Pereira', 'ana.pereira@example.com', 'senha101'),
-('Lucas Mendes', 'lucas.mendes@example.com', 'senha102');
+('Pedro Silva', 'pedrosilva@example.com', 'senha351'),
+('Maria lima', 'maria.lima@example.com', 'senha625'),
+('Theo Oliveira', 'theo.oliveira@example.com', 'senha402'),
+('Julia Maria', 'Juliamaria@example.com', 'senha031'),
+('Joao Mendes', 'joaomendes@example.com', 'senha552');
 
 INSERT INTO Artistas (nome, genero) VALUES
-('Artista A', 'Pop'),
+('Artista A', 'Funk'),
 ('Artista B', 'Rock'),
-('Artista C', 'Jazz'),
-('Artista D', 'Hip-Hop'),
+('Artista C', 'Trap'),
+('Artista D', 'Pagode'),
 ('Artista E', 'Eletrônica');
 
 INSERT INTO Playlists (usuario_id, nome, descricao) VALUES
 (1, 'Minhas Favoritas', 'Playlist com minhas músicas favoritas'),
-(2, 'Rock Clássico', 'Playlist de rock clássico'),
-(3, 'Jazz Relax', 'Playlist para relaxar com jazz'),
-(4, 'Hip-Hop Vibes', 'Melhores músicas de hip-hop'),
-(5, 'Dance Hits', 'As melhores músicas eletrônicas para dançar');
+(2, 'Funk ', 'Playlist de funk'),
+(3, 'Rock Metal', 'Playlist de rock metal'),
+(4, 'Eletrônica Vibes', 'Melhores músicas de eletrônica'),
+(5, 'Dance Hits', 'os melhores pagode para dançar');
 
 INSERT INTO Musicas (titulo, artista_id) VALUES
 ('Música 1', 1),
